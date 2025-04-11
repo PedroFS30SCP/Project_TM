@@ -1,5 +1,7 @@
 import pandas as pd
 
+# Script para limpar e preparar o léxico NRC, extraindo apenas as colunas 'word', 'positive' e 'negative'
+
 # Caminhos dos ficheiros
 input_file = '../dataset/NCR-lexicon_ORIGIN.csv'
 output_file = '../dataset/NCR-lexicon.csv'
