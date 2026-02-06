@@ -32,8 +32,12 @@ The project focuses on **sentiment classification in textual data**, exploring m
 
 ---
 
-## Project Objective
+## Real-World Relevance
 
-To compare different sentiment analysis strategies and evaluate how performance evolves from rule-based systems to modern deep learning and generative AI approaches.
+This project demonstrates:
+- NLP for understanding unstructured text
+- Use of LLMs and transformer models
+- Techniques useful for building AI-powered automation agents
+- Real-world sentiment classification systems
 
 ---
