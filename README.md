@@ -1,16 +1,39 @@
-# Análise de Sentimentos em Reviews de Filmes
+# Movie Review Sentiment Analysis
 
-Este repositório contém a implementação do projeto de Análise de Sentimentos desenvolvido no âmbito da disciplina de Text Mining para Ciência de Dados, no ISCTE — Instituto Universitário de Lisboa.
+This repository contains the implementation of a **Sentiment Analysis** project developed as part of the *Text Mining for Data Science* course at ISCTE — University Institute of Lisbon.
 
-O projeto aborda a tarefa de classificação de sentimentos em textos, aplicando diversas metodologias, desde abordagens baseadas em ferramentas prontas e léxicos até técnicas avançadas baseadas em aprendizagem automática e modelos de transformers.
+The project focuses on **sentiment classification in textual data**, exploring multiple approaches ranging from lexicon-based and rule-based techniques to advanced **machine learning** and **transformer-based models**.
 
-## Estrutura dos Ficheiros
+---
 
-| Ficheiro        | Descrição |
-|-----------------|-----------|
-| `2.2.ipynb`      | Avaliação de ferramentas existentes de análise de sentimentos (`TextBlob` e `VADER`) sobre o dataset IMDB Reviews. Definição de uma baseline inicial. |
-| `2.3.ipynb`      | Implementação de um classificador baseado no léxico `NRC EmoLex`, incluindo pré-processamento e tratamento de negação. |
-| `2.4.ipynb`      | Treino de modelos de aprendizagem automática supervisionada (`Logistic Regression` + TF-IDF) com diferentes níveis de pré-processamento. |
-| `2.5.ipynb`      | Aplicação de modelos baseados em transformers (`DistilBERT`): utilização de pipelines pré-treinados e realização de fine-tuning manual em PyTorch. |
-| `2.6.ipynb`      | Utilização de modelos generativos para análise de sentimentos em português, incluindo avaliação de modelos multilingues e de zero-shot learning. |
-| `clean_NCR.py`   | Script de limpeza do léxico `NRC EmoLex`, extraindo apenas as colunas necessárias (`word`, `positive`, `negative`) para utilização posterior no pipeline. |
+## Repository Structure
+
+| File | Description |
+|------|-------------|
+| `2.2.ipynb` | Evaluation of existing sentiment analysis tools (**TextBlob** and **VADER**) on the IMDB Reviews dataset. Establishes an initial performance baseline. |
+| `2.3.ipynb` | Implementation of a lexicon-based classifier using **NRC EmoLex**, including text preprocessing and negation handling. |
+| `2.4.ipynb` | Training of supervised machine learning models (**Logistic Regression + TF-IDF**) with different preprocessing strategies. |
+| `2.5.ipynb` | Application of transformer-based models (**DistilBERT**): use of pre-trained pipelines and manual fine-tuning using PyTorch. |
+| `2.6.ipynb` | Use of **generative models** for sentiment analysis in Portuguese, including evaluation of multilingual models and zero-shot learning techniques. |
+| `clean_NCR.py` | Script for cleaning the **NRC EmoLex** lexicon, extracting only the necessary columns (`word`, `positive`, `negative`) for pipeline integration. |
+
+---
+
+## Methods Explored
+
+- Lexicon-based Sentiment Analysis  
+- Rule-based Approaches  
+- Traditional Machine Learning (TF-IDF + Logistic Regression)  
+- Transformer Models (DistilBERT)  
+- Fine-tuning with PyTorch  
+- Generative AI for Text Classification  
+- Zero-shot Learning  
+- Multilingual NLP  
+
+---
+
+## Project Objective
+
+To compare different sentiment analysis strategies and evaluate how performance evolves from rule-based systems to modern deep learning and generative AI approaches.
+
+---
